@@ -55,6 +55,6 @@ mongoose
     return logger.info(`database connection on ${mongoose.connection.port} port with success!`);
   })
   .catch((error) => {
-    logger.info('fail to connect to database');
+    logger.info('fail connection to database');
     logger.error(error.message);
   });
